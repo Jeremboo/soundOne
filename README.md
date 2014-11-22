@@ -19,15 +19,13 @@ This is a good compromise to avoid using JS libraries largest and most complex.
 
 Each sound is directly loaded in a 'arrayBuffer' via a XMLHttpRequest object. 
 
-When using the method ``play()``, a contextBuffer object is created and played.
+When using the ``play()`` method, a contextBuffer object is created and played. Thus, a single SoundOne object can simultaneously playing a sound loaded.
 
- A chaque lancement de la méthode 'play()', un object contextBuffer est crée et joué. Thus, a single SoundOne object can simultaneously playing a sound loaded.
-
- A URL can also be passed at the method play() to play directly a new sound :
+ A URL can also be passed at the play() method to play directly a new sound :
 
         aSound.play("my_second_sound.mp3");
 
-Il est tout de même possible de charger un son en amont avec la méthode load();
+It is still possible to load a sound upstream with the load() method
 
         aSound.load("my_third_sound.mp3");
 
@@ -42,5 +40,3 @@ Il est tout de même possible de charger un son en amont avec la méthode load()
         aSound.modifPlaybackRate(0.8);
 
 Changing the frequency also changes the amount of sound.
-
-## Des choses à redire ?
