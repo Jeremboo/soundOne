@@ -1,0 +1,24 @@
+{
+  "name": "soundOne",
+  "main": "soundOne.js",
+  "version": "0.1.0",
+  "authors": [
+    "Jeremie Boulay <jeremi.boulay@gmail.com>"
+  ],
+  "description": "Simple javascript library to lauch a sound. Conveniet for sound effects. It is also possible to change the gain and frequency of the sound played. A unique sound can be used several times.",
+  "keywords": [
+    "API",
+    "audio",
+    "sound",
+    "javascript",
+    "mp3"
+  ],
+  "license": "Apache2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
